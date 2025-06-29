@@ -7,7 +7,9 @@
   "category": "Anime",
   "tags": ["anime", "seasonal", "recommendations"],
   "date": "2025-06-15",
-  "heroImage": "assets/summer.jpg"
+  "heroImage": "assets/summer.jpg",
+  "thumbnail": "assets/PlaceThumb.jpg"
+
 },
   {
   "id": 2,
@@ -17,7 +19,9 @@
   "category": "Gaming",
   "tags": ["elden ring", "rpg", "gaming", "open world"],
   "date": "2025-06-28",
-  "heroImage": "assets/EldenRing.jpg"
+  "heroImage": "assets/EldenRing.jpg",
+  "thumbnail": "assets/PlaceThumb.jpg"
+
 },
   {
   "id": 3,
@@ -27,7 +31,9 @@
   "category": "Anime",
   "tags": ["anime", "art styles", "animation history", "visual design"],
   "date": "2025-06-28",
-  "heroImage": "assets/AnimeArt.png"
+  "heroImage": "assets/AnimeArt.png",
+  "thumbnail": "assets/PlaceThumb.jpg"
+
 },
   {
     "id": 4,
@@ -36,7 +42,10 @@
     "content": "Full blog content here...",
     "category": "Tech",
     "tags": ["steam deck", "hardware", "review"],
-    "date": "2025-06-10"
+    "date": "2025-06-10",
+    "heroImage": "assets/AnimeArt.png",
+    "thumbnail": "assets/PlaceThumb.jpg"
+
   },
   {
   "id": 5,
@@ -46,7 +55,9 @@
   "category": "Tech",
   "tags": ["pc build", "hardware", "tech tips", "beginner guide"],
   "date": "2025-06-28",
-  "heroImage": "assets/Pcbuilder.jpg"
+  "heroImage": "assets/Pcbuilder.jpg",
+  "thumbnail": "assets/PlaceThumb.jpg"
+
 }
 ,
   {
@@ -57,6 +68,8 @@
   "category": "Anime",
   "tags": ["made in abyss", "anime", "review", "dark fantasy"],
   "date": "2025-06-28",
-  "heroImage": "assets/Abyss.jpg"
+  "heroImage": "assets/Abyss.jpg",
+  "thumbnail": "assets/PlaceThumb.jpg"
+
 }
 ]

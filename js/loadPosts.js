@@ -8,11 +8,13 @@ document.addEventListener("DOMContentLoaded", () => {
         const postCard = document.createElement("div");
         postCard.className = "post-card";
         postCard.innerHTML = `
-          <h3>${post.title}</h3>
-          <p>${post.excerpt}</p>
-          <p><small>${post.category} | ${post.date}</small></p>
-          <a href="post.html?id=${post.id}">Read More →</a>
-        `;
+  ${post.thumbnail ? `<img src="${post.thumbnail}" alt="${post.title} Thumbnail" class="post-thumb" />` : ""}
+  <h3>${post.title}</h3>
+  <p>${post.excerpt}</p>
+  <p><small>${post.category} | ${post.date}</small></p>
+  <a href="post.html?id=${post.id}">Read More →</a>
+`;
+
         postsContainer.appendChild(postCard);
       });
     })
