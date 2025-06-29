@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact - Animazing Blogs</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1 class="site-title">Animazing Blogs</h1>
+      <button id="toggle-theme">🌙</button>
+    </div>
+    <nav class="main-nav">
+  <button id="hamburger">&#9776;</button>
+  <ul id="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="categories.html">Categories</a></li>
+    <li><a href="authors.html">About the Authors</a></li>
+    <li><a href="archive.html">Archive</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+  </header>
+
+  <main class="contact-section">
+    <h2>Get in Touch</h2>
+    <form id="contact-form">
+      <label for="name">Name</label>
+      <input type="text" id="name" required />
+
+      <label for="email">Email</label>
+      <input type="email" id="email" required />
+
+      <label for="message">Message</label>
+      <textarea id="message" rows="5" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+    <p class="form-note">*This form is not connected yet. For now, you can style and preview it locally.</p>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 CrowsCoupeDesigns. All rights reserved.</p>
+  </footer>
+
+  <script src="js/themeToggle.js"></script>
+  <script>
+    document.getElementById("contact-form").addEventListener("submit", function (e) {
+      e.preventDefault();
+      alert("Thank you! Form submission is currently in preview mode.");
+      this.reset();
+    });
+  </script>
+  <script src="js/hamburger.js"></script>
+
+</body>
+</html>
